@@ -22,7 +22,9 @@ extensions = [
 "sphinx_markdown_tables"        #to was everywhere so.. why not?
    ]
 
-exclude_patterns = ['_build','build','PDF', 'READMEimgs','installDependencies','commands','Thumbs.db', '.DS_Store','README.md']
+### ADD ,'README.md' HERE ######################################################################################
+
+exclude_patterns = ['_build','build','PDF', 'READMEimgs','installDependencies','commands','Thumbs.db', '.DS_Store']
 
 source_suffix = {
     ".rst": "restructuredtext",

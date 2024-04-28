@@ -16,17 +16,24 @@ Indices and tables
 Contents:
 ==================
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Template Usage:
+
+   README.md
+
+
 
 .. toctree::
    :maxdepth: 2
-   :caption: Stardard Usage:
+   :caption: Stardard Usage (demo):
 
    documentation/MyDoc1.md
    documentation/MyDoc2.md
 
 .. toctree::
    :maxdepth: 2
-   :caption: Advanced Usage:
+   :caption: Advanced Usage (demo):
 
    documentation/MyDoc3.md
    documentation/MyDoc4.md

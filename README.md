@@ -23,6 +23,9 @@ This script installs all the needed dependencies to build the PDF file and shoul
 ## Usage
 
 ### Write your documentation
+
+**remember to remove if you want the README.md from "index.rst" and add it to the "exclude_patterns" in "conf.py"**
+
 The structure is defined in the **index.rst** file. the user can edit and add more .MD files and those are then be used to create the documentation in Both PDF and HTML form. 
 
 Here is the list of the documents contained now:
