@@ -27,6 +27,15 @@
             "problemMatcher": [
                 "$gcc"
             ]
+        },
+
+        {
+            "label": "deploySite",
+            "type": "shell",
+            "command": "./commands/utilities/completeDeploy.sh",
+            "problemMatcher": [
+                "$gcc"
+            ]
         }
     ]
 }

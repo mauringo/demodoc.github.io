@@ -6,11 +6,11 @@ If you find any problem please make an issue :).
 ## Installation
 To use this documentation is necessary to install sphinx and the needed extensions. see: **commands/installDependencies/runme.sh** and **commands/installDependencies/runMeWithRoot.sh**
 
-### Reboot the machine after the packages installation. If sphinx is not found thin install it also via APT.
+### Reboot the machine after the packages installation. If sphinx is not found then install it also via APT.
 
     sudo apt install python3-sphinx
 
-sphinx_rtd_theme
+
 ### *commands/installDependencies/runme.sh* 
 This script installs all the needed dependencies to build the HTML file
 
