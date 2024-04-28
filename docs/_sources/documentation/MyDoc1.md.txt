@@ -1,4 +1,4 @@
-# Basic Usage
+# Basic Functions
 
 wew
 ![Alt text](doc_img/download.jpeg)

@@ -1,2 +1,0 @@
-./createPDF.sh
-./createSiteGithub.sh
