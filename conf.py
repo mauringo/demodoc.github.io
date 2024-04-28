@@ -16,9 +16,10 @@ release = '0.1'
 
 
 extensions = [
-"sphinx_rtd_theme",
-"recommonmark",
-"sphinx_markdown_tables"
+"nbsphinx",                     #to include jupyer notebooks 
+"sphinx_rtd_theme",             #to use the read the docs theme  
+"recommonmark",                 #to Include .MD files
+"sphinx_markdown_tables"        #to was everywhere so.. why not?
    ]
 
 exclude_patterns = ['_build','build','PDF', 'installDependencies','Thumbs.db', '.DS_Store','README.md']

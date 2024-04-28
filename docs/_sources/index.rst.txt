@@ -12,20 +12,21 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`search`
 
-docs/MyDoc1.md
 
 Contents:
+==================
+
 
 .. toctree::
    :maxdepth: 2
-   :caption: Section 1:
+   :caption: Stardard Usage:
 
    documentation/MyDoc1.md
    documentation/MyDoc2.md
 
 .. toctree::
    :maxdepth: 2
-   :caption: Section 2:
+   :caption: Advanced Usage:
 
    documentation/MyDoc3.md
    documentation/MyDoc4.md
