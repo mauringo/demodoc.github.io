@@ -10,6 +10,8 @@ To use this documentation is necessary to:
 - use **./createSiteGithub.sh** to generate the folder docs with the site ready to deploy to github
 - the file .nojekyll is required to set github in order to correctly serve the site
 
+The Integration with gthub has been found here: https://www.docslikecode.com/articles/github-pages-python-sphinx/
+
 Here is the list of the documents contained:
 
 - [MyDocument1](documentation/MyDoc1.md)
