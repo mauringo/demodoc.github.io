@@ -14,7 +14,7 @@ sphinx_rtd_theme
 ### *commands/installDependencies/runme.sh* 
 This script installs all the needed dependencies to build the HTML file
 
-uuuu    pip3 install sphinx sphinx_rtd_theme recommonmark sphinx_markdown_tables     pip3 install sphinx sphinx_rtd_theme recommonmark sphinx_markdown_tables nbsphinx
+    pip3 install sphinx sphinx_rtd_theme recommonmark sphinx_markdown_tables nbsphinx
 
 
 
