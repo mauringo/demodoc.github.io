@@ -21,7 +21,7 @@ extensions = [
 "sphinx_markdown_tables"
    ]
 
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_build','build','PDF', 'installDependencies','Thumbs.db', '.DS_Store','README.md']
 
 source_suffix = {
     ".rst": "restructuredtext",
@@ -30,14 +30,14 @@ source_suffix = {
 
 html_theme = "sphinx_rtd_theme"
 html_theme_options = {
-    "logo_only": True,
+    #"logo_only": True,
     "display_version": True,
-    "prev_next_buttons_location": "bottom",
+    "prev_next_buttons_location": "top",
     "style_external_links": True,
     # Toc options
     "collapse_navigation": False,
     "sticky_navigation": False,
-    "navigation_depth": 3,
+    "navigation_depth": 2,
     "includehidden": True,
     "titles_only": False
 }

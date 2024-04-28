@@ -17,7 +17,8 @@ docs/MyDoc1.md
 Contents:
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
+   :caption: Section 1:
 
    documentation/MyDoc1.md
    documentation/MyDoc2.md

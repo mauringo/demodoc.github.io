@@ -32,8 +32,8 @@
 
           
           
-          <a href="#">
-            
+          <a href="#" class="icon icon-home">
+            DemoDocumentation
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -43,9 +43,10 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <ul>
+              <p class="caption" role="heading"><span class="caption-text">Section 1:</span></p>
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="documentation/MyDoc1.html">Title1</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="documentation/MyDoc1.html#id1"></a></li>
+<li class="toctree-l2"><a class="reference internal" href="documentation/MyDoc1.html#test">test</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="documentation/MyDoc2.html">Title2</a></li>
@@ -74,7 +75,9 @@
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
       </li>
-  </ul>
+  </ul><div class="rst-breadcrumbs-buttons" role="navigation" aria-label="Sequential page navigation">
+        <a href="documentation/MyDoc1.html" class="btn btn-neutral float-right" title="Title1" accesskey="n">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+  </div>
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -92,8 +95,12 @@
 <p>docs/MyDoc1.md</p>
 <p>Contents:</p>
 <div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Section 1:</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="documentation/MyDoc1.html">Title1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="documentation/MyDoc1.html">Title1</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="documentation/MyDoc1.html#test">test</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="documentation/MyDoc2.html">Title2</a></li>
 </ul>
 </div>
@@ -109,9 +116,7 @@
 
            </div>
           </div>
-          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="documentation/MyDoc1.html" class="btn btn-neutral float-right" title="Title1" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-    </div>
+          <footer>
 
   <hr/>
 
