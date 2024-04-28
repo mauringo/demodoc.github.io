@@ -41,13 +41,13 @@ html_theme_options = {
     "includehidden": True,
     "titles_only": False
 }
+
+#More Customizations :)
 html_title = "My amazing documentation"
-#html_logo = "path/to/logo.png"
-#html_favicon = "path/to/favicon.ico"
+html_logo = "staticfiles/python.svg"
+html_favicon = "staticfiles/python.svg"
 
 
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
-
-html_static_path = ['staticfiles']
