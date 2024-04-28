@@ -1,16 +1,22 @@
 # My documentation Sphinx Base 
 This example documentation has been created in order to help people on this quest. Is a real minimal setup in order to keep it as simple as possible. 
-
 If you find any problem please make an issue :).
+
 
 ## Installation
 To use this documentation is necessary to install sphinx and the needed extensions. see: **commands/installDependencies/runme.sh** and **commands/installDependencies/runMeWithRoot.sh**
 
+### Reboot the machine after the packages installation. If sphinx is not found thin install it also via APT.
 
+    sudo apt install python3-sphinx
+
+sphinx_rtd_theme
 ### *commands/installDependencies/runme.sh* 
 This script installs all the needed dependencies to build the HTML file
 
-    pip3 install sphinx sphinx_rtd_theme recommonmark sphinx_markdown_tables nbsphinx
+uuuu    pip3 install sphinx sphinx_rtd_theme recommonmark sphinx_markdown_tables     pip3 install sphinx sphinx_rtd_theme recommonmark sphinx_markdown_tables nbsphinx
+
+
 
 ###  *runMeWithRoot.sh*
 This script installs all the needed dependencies to build the PDF file and should be run with sudo

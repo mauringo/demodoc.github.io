@@ -107,17 +107,22 @@
              
   <section id="my-documentation-sphinx-base">
 <h1>My documentation Sphinx Base<a class="headerlink" href="#my-documentation-sphinx-base" title="Link to this heading"></a></h1>
-<p>This example documentation has been created in order to help people on this quest. Is a real minimal setup in order to keep it as simple as possible.</p>
-<p>If you find any problem please make an issue :).</p>
+<p>This example documentation has been created in order to help people on this quest. Is a real minimal setup in order to keep it as simple as possible.
+If you find any problem please make an issue :).</p>
 <section id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Link to this heading"></a></h2>
 <p>To use this documentation is necessary to install sphinx and the needed extensions. see: <strong>commands/installDependencies/runme.sh</strong> and <strong>commands/installDependencies/runMeWithRoot.sh</strong></p>
+<section id="reboot-the-machine-after-the-packages-installation-if-sphinx-is-not-found-thin-install-it-also-via-apt">
+<h3>Reboot the machine after the packages installation. If sphinx is not found thin install it also via APT.<a class="headerlink" href="#reboot-the-machine-after-the-packages-installation-if-sphinx-is-not-found-thin-install-it-also-via-apt" title="Link to this heading"></a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">apt</span> <span class="n">install</span> <span class="n">python3</span><span class="o">-</span><span class="n">sphinx</span>
+</pre></div>
+</div>
+<p>sphinx_rtd_theme</p>
+</section>
 <section id="commands-installdependencies-runme-sh">
 <h3><em>commands/installDependencies/runme.sh</em><a class="headerlink" href="#commands-installdependencies-runme-sh" title="Link to this heading"></a></h3>
 <p>This script installs all the needed dependencies to build the HTML file</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip3</span> <span class="n">install</span> <span class="n">sphinx</span> <span class="n">sphinx_rtd_theme</span> <span class="n">recommonmark</span> <span class="n">sphinx_markdown_tables</span> <span class="n">nbsphinx</span>
-</pre></div>
-</div>
+<p>uuuu    pip3 install sphinx sphinx_rtd_theme recommonmark sphinx_markdown_tables     pip3 install sphinx sphinx_rtd_theme recommonmark sphinx_markdown_tables nbsphinx</p>
 </section>
 <section id="runmewithroot-sh">
 <h3><em>runMeWithRoot.sh</em><a class="headerlink" href="#runmewithroot-sh" title="Link to this heading"></a></h3>
